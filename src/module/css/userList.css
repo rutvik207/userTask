@@ -1,0 +1,31 @@
+.darkUserListComponent {
+  --border:#ffffff;
+  --background: #000000;
+  --fontclr: #ffffff;
+}
+.LightUserListComponent{
+  --background: #ffffff;
+  --fontclr: #000000;
+  --border:#000000;
+}
+
+
+.tableData {
+  background: var(--background);
+    border: 2px solid var(--border);
+    width: 500px;
+  color: var(--fontclr);
+  margin-bottom: 100px;
+
+}
+.userDataTable {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.userList-wrapper{
+  margin-top: 100px;
+}

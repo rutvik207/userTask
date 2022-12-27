@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  background-color: var(--backgroundclr);
+}
+#darkComponentWrapper{
+  --backgroundclr:#000000;
+}
+#lightComponentWrapper{
+  --backgroundclr:#ffffff;
+}
